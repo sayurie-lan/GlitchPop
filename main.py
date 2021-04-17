@@ -35,10 +35,12 @@
 # x = range(5, 6)
 # print(x)
 
-a = 1
-b = "1"
-c = 1.14
+# a = 1
+# b = "1"
+# c = 1.14
 
-d = a + float(b) + c
+# d = a + float(b) + c
 
-print(round(d, 3))
+# print(round(d, 3))
+
+print('diving')
