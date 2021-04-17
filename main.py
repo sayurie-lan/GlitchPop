@@ -66,17 +66,31 @@
 # else:
 #   print('wrong password!')
 
-a = input("Value 1 is: ")
-b = input("Value 2 is: ")
+# a = input("Value 1 is: ")
+# b = input("Value 2 is: ")
 
-oper = input("Input the operant(*, /, +, -)")
-a = int(a)
-b = int(b)
-if oper == "+":
-	print(int(a) + int(b))
-elif oper == "-":
-	print(int(a) - int(b))
-elif oper == "*":
-	print(int(a) * int(b))
-elif oper == "/":
-	print(int(a) / int(b))
+# oper = input("Input the operant(*, /, +, -)")
+# a = int(a)
+# b = int(b)
+# if oper == "+":
+# 	print(int(a) + int(b))
+# elif oper == "-":
+# 	print(int(a) - int(b))
+# elif oper == "*":
+# 	print(int(a) * int(b))
+# elif oper == "/":
+# 	if b == 0:
+# 		print("you cannot divide to 0")
+# 	else:
+# 		print(int(a) / int(b))
+gen = input("Choose your gender\n")
+age = input("What is your age\n")
+if int(age) <= 0:
+	print("Write the correct age")
+	age = input("What is your age\n")
+
+gen = str(gen).upper()
+if (gen == "W" and int(age) >= 18) or (gen == "M" and int(age) >= 21):
+	print("Ote ber")
+else:
+	print("Kait uine")
