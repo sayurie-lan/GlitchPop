@@ -54,10 +54,29 @@
 # name = input("Your Name ")
 # a = f"Hello {name}"
 # print(a)
+# password1 = '2222'#Jack
+# password2 = '3333'#Nick
 
-txt = "I love banana but banana is so rare"
-print(txt)
-rep = txt.replace("banana", "BANANA")
-print(rep)
-app = rep.replace("BANANA", "apple")
-print(app)
+# user_input = input("Введи пароль")
+
+# if user_input == password1:
+#   print('Hello Jack')
+# elif user_input == password2:
+#   print('hello Nick')
+# else:
+#   print('wrong password!')
+
+a = input("Value 1 is: ")
+b = input("Value 2 is: ")
+
+oper = input("Input the operant(*, /, +, -)")
+a = int(a)
+b = int(b)
+if oper == "+":
+	print(int(a) + int(b))
+elif oper == "-":
+	print(int(a) - int(b))
+elif oper == "*":
+	print(int(a) * int(b))
+elif oper == "/":
+	print(int(a) / int(b))
