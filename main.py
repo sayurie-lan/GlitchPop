@@ -44,8 +44,13 @@
 
 # print(round(d, 3))
 
-a = input("Input the Radius\n")
-S = float(a)**2*3.14
-print(float(S))
+# a = input("Input the Radius\n")
+# S = float(a)**2*3.14
+# print(float(S))
+
 # print(a)
 # a = print(type(a))
+
+name = input("Your Name ")
+a = f"Hello {name}"
+print(a)
