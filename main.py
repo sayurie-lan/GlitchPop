@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # print("hello world")
 # print("ALibi chort")
 
@@ -43,4 +44,8 @@
 
 # print(round(d, 3))
 
-print('diving')
+a = input("Input the Radius\n")
+S = float(a)**2*3.14
+print(float(S))
+# print(a)
+# a = print(type(a))
