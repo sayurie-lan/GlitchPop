@@ -51,6 +51,13 @@
 # print(a)
 # a = print(type(a))
 
-name = input("Your Name ")
-a = f"Hello {name}"
-print(a)
+# name = input("Your Name ")
+# a = f"Hello {name}"
+# print(a)
+
+txt = "I love banana but banana is so rare"
+print(txt)
+rep = txt.replace("banana", "BANANA")
+print(rep)
+app = rep.replace("BANANA", "apple")
+print(app)
