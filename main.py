@@ -83,14 +83,65 @@
 # 		print("you cannot divide to 0")
 # 	else:
 # 		print(int(a) / int(b))
-gen = input("Choose your gender\n")
-age = input("What is your age\n")
-if int(age) <= 0:
-	print("Write the correct age")
-	age = input("What is your age\n")
+# gen = input("Choose your gender\n")
+# age = input("What is your age\n")
+# if int(age) <= 0:
+# 	print("Write the correct age")
+# 	age = input("What is your age\n")
 
-gen = str(gen).upper()
-if (gen == "W" and int(age) >= 18) or (gen == "M" and int(age) >= 21):
-	print("Ote ber")
-else:
-	print("Kait uine")
+# gen = str(gen).upper()
+# if (gen == "W" and int(age) >= 18) or (gen == "M" and int(age) >= 21):
+# 	print("Ote ber")
+# else:
+# 	print("Kait uine")
+
+# d = {
+# 	'name' : 'Egor',
+# 	'surname': 'EgorUlyKotiBar',
+# 	'pas': 123123,
+# 	'WW': True,
+# 	'array': [12,2,3,24,3],
+# 	'dd': {
+# 	'2level': 'Egor2',
+# 	'2pas': 21312
+#   }
+# }
+
+# a = input('vvedite a')
+# b = input('vvedite b')
+
+# print(int(a), int(b))
+
+# c = a
+# a = b
+# b = c
+
+# print(a, b)
+
+# a = input("vvedite a")
+# b = input("vvedite b")
+
+# print(a, b)
+# a = int(a)
+# b = int(b)
+# a = a + b
+# b = a - b
+# a = a - b
+# print(a, b)
+
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# print(thislist[:4])
+# # ['apple', 'banana', 'cherry', 'orange']
+
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# print(thislist[4:])
+# # ["kiwi", "melon", "mango"]
+
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# print(thislist[2:5])
+
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# thislist[2] = 'KKKKK'
+# fruit = thislist[3]
+# print(thislist)
+# print(fruit)
