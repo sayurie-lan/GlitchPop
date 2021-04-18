@@ -174,14 +174,14 @@
 # 	if x % 2 == 0:
 # 		print(x)
 
-a = [1, 2, 3, 4, 5]
-b = [1, 2, 10]
-for x in range(0, len(a)):
-	for y in range(0, len(b)):
-		if a[x] == b[y]:
-			print(b[y])
+# a = [1, 2, 3, 4, 5]
+# b = [1, 2, 10]
+# for x in range(0, len(a)):
+# 	for y in range(0, len(b)):
+# 		if a[x] == b[y]:
+# 			print(b[y])
 
-# x1 = [1,2,3,4,5]
+# # x1 = [1,2,3,4,5]
 
 # x2 = [1,5,10]
 # for i in range(0,len(x1)):
@@ -190,3 +190,8 @@ for x in range(0, len(a)):
 #    a = x1[i]
 #    b = x2[j]
 #    print(a,b)
+a = input("Input the value")
+try:
+	print(int(a)*10)
+except Exception as e:
+	print("We cannot multiple to 10 the word")
