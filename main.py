@@ -154,19 +154,39 @@
 # for i in thislist:
 # 	print(i)
 
-a = '''asd awd awd awD awd banana BanAna bananA apple asd asdw ad da BananA asd awd awd awD awd banana BanAna bananA apple asd asdw ad da BananA asd awd awd awD awd banana BanAna bananA apple asd asdw ad da BananA'''
-b = a.upper()
+# a = '''asd awd awd awD awd banana BanAna bananA apple asd asdw ad da BananA asd awd awd awD awd banana BanAna bananA apple asd asdw ad da BananA asd awd awd awD awd banana BanAna bananA apple asd asdw ad da BananA'''
+# b = a.upper()
+# # print(a)
+# # print(b)
+# b = b.split()
+# a = a.split()
+# for x in range(0, len(a)):
+# 	if b[x] == "BANANA":
+# 		a[x] = "BANANA"
+# a = ' '.join(a)
 # print(a)
-# print(b)
-b = b.split()
-a = a.split()
-for x in range(0, len(a)):
-	if b[x] == "BANANA":
-		a[x] = "BANANA"
-a = ' '.join(a)
-print(a)
 
 # for x in range(0, len(b)):
 # 	if b[x] == "BANANA":
 # 		a[x] == "BANANA"
 # print(a)
+# for x in range(1, 11):
+# 	if x % 2 == 0:
+# 		print(x)
+
+a = [1, 2, 3, 4, 5]
+b = [1, 2, 10]
+for x in range(0, len(a)):
+	for y in range(0, len(b)):
+		if a[x] == b[y]:
+			print(b[y])
+
+# x1 = [1,2,3,4,5]
+
+# x2 = [1,5,10]
+# for i in range(0,len(x1)):
+#  for j in range(0,len(x2)):
+#   if x1[i] == x2[j]:
+#    a = x1[i]
+#    b = x2[j]
+#    print(a,b)
