@@ -36,15 +36,38 @@
 # wb.save('changed.xlsx')
 
 # --------SALARY
-from openpyxl import load_workbook
-wb = load_workbook('salary.xlsx')
+# from openpyxl import load_workbook
+# wb = load_workbook('salary.xlsx')
 
-sheet = wb.get_sheet_by_name('Database')
-sum1 = 0
-for i in range (4, 25):
-	# print(sheet.cell(row=i, column=11).value)
-	sum1 += sheet.cell(row=i, column=11).value
-sheet['K26'].value = sum1
-print(sum1)
+# sheet = wb.get_sheet_by_name('Database')
+# sum1 = 0
+# for i in range (4, 25):
+# 	# print(sheet.cell(row=i, column=11).value)
+# 	sum1 += sheet.cell(row=i, column=11).value
+# sheet['K26'].value = sum1
+# print(sum1)
 
-wb.save('salary.xlsx')
+# wb.save('salary.xlsx')
+
+#------------REQUEST
+
+import requests
+import json
+
+# r = requests.get('https://jsonplaceholder.typicode.com/users')
+# otvet = r.text
+# otvet = json.loads(otvet)
+
+# for i in otvet:
+# 	if i['id'] == 4:
+# 		print(i['address']['geo']['lng'])
+
+# for i in otvet:
+# 	if i['userId'] == 1:
+# 		print(i['title'])
+
+# print(type(otvet))
+# print(r.text)
+
+# ----post
+
