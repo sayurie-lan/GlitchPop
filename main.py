@@ -145,3 +145,28 @@
 # fruit = thislist[3]
 # print(thislist)
 # print(fruit)
+
+# a = [1,4,2,4,6,7,6,5,7]
+# a = sorted(a)
+# print(a)
+
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# for i in thislist:
+# 	print(i)
+
+a = '''asd awd awd awD awd banana BanAna bananA apple asd asdw ad da BananA asd awd awd awD awd banana BanAna bananA apple asd asdw ad da BananA asd awd awd awD awd banana BanAna bananA apple asd asdw ad da BananA'''
+b = a.upper()
+# print(a)
+# print(b)
+b = b.split()
+a = a.split()
+for x in range(0, len(a)):
+	if b[x] == "BANANA":
+		a[x] = "BANANA"
+a = ' '.join(a)
+print(a)
+
+# for x in range(0, len(b)):
+# 	if b[x] == "BANANA":
+# 		a[x] == "BANANA"
+# print(a)
