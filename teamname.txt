@@ -1,0 +1,148 @@
+2021-04-12 12:44:13,273] INFO [tr:12042112415580-01684-0] [coin_validator coin_validator.run:282] Coin validator _________________________********______________________________________
+2021-04-12 12:44:13,273] INFO [tr:12042112415580-01684-0] [coin_validator coin_validator.run:283] 2 0 1 229 24 1 11 2 0 102 5 1 5 1 4 2 4 2 4 2 110 [21]
+2021-04-12 12:44:13,274] INFO [tr:12042112415580-01684-0] [coin_validator coin_validator.run:357] Coin accepted----------------------------: 100
+2021-04-12 12:44:13,275] INFO [tr:12042112415580-01684-0] [general <string>.get_validator_data:913] BILL_VALIDATOR cmd:bill_value, text:100
+2021-04-12 12:44:13,276] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_cash_amount:141] Current amount: 100
+2021-04-12 12:44:13,277] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_cash_amount:151] Payment bills: [[5000, 'bv'], [5000, 'bv'], [5000, 'bv'], [5000, 'bv'], [5000, 'bv'], [5000, 'bv'], [5000, 'bv'], [5000, 'bv'], [5000, 'bv'], [5000, 'bv'], [5000, 'bv'], [5000, 'bv'], [5000, 'bv'], [500, 'bv'], [100, 'cv']]
+2021-04-12 12:44:13,278] INFO [tr:12042112415580-01684-0] [general threads.on_message:64] Message from server: devices_mod->applied_signal_statistic
+2021-04-12 12:44:13,280] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_cash_amount:152] Payment bills count: {5000: 13, 100: 1, 500: 1}
+2021-04-12 12:44:13,281] INFO [tr:12042112415580-01684-0] [coin_validator coin_validator.run:362] Coin accepted: 100 tenge
+2021-04-12 12:44:13,282] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_commissions_and_percents:340] -------------------------------------------------
+2021-04-12 12:44:13,284] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_commissions_and_percents:341] main commission amount: 0.0
+2021-04-12 12:44:13,284] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_commissions_and_percents:342] mobilnik commission amount: 0.0
+2021-04-12 12:44:13,285] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_commissions_and_percents:343] bank commission amount: 0.0
+2021-04-12 12:44:13,286] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_commissions_and_percents:344] - - - - - - - - - - - - - - - - - - - - - - - - -
+2021-04-12 12:44:13,287] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_commissions_and_percents:345] main percent value: 0.0
+2021-04-12 12:44:13,288] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_commissions_and_percents:346] mobilnik percent value: 0.0
+2021-04-12 12:44:13,289] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_commissions_and_percents:347] bank percent value: 0.0
+2021-04-12 12:44:13,289] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_commissions_and_percents:348] - - - - - - - - - - - - - - - - - - - - - - - - -
+2021-04-12 12:44:13,290] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_commissions_and_percents:349] main percent amount: 0.0
+2021-04-12 12:44:13,291] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_commissions_and_percents:350] mobilnik percent amount: 0.0
+2021-04-12 12:44:13,292] INFO [tr:12042112415580- ElonMars 01684-0] [payment_std_form pages.set_commissions_and_percents:351] ElonMARs bank percent amount: 0.0 
+2021-04-12 12:44:13,293] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_commissions_and_percents:352] -------------------------------------------------
+2021-04-12 12:44:13,294] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_commissions_and_percents:353] currency rate: 0
+2021-04-12 12:44:13,295] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_commissions_and_percents:354] -------------------------------------------------
+2021-04-12 12:44:13,295] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_commissions_and_percents:355] amount to pay: 0
+2021-04-12 12:44:13,296] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_commissions_and_percents:356] amount: 65600
+2021-04-12 12:44:13,297] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_commissions_and_percents:357] result amount: 65600.0
+2021-04-12 12:44:13,298] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_commissions_and_percents:358] amount to display: 65600.0
+2021-04-12 12:44:13,299] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_commissions_and_percents:359] -------------------------------------------------
+2021-04-12 12:44:13,299] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_commissions_and_percents:360] cachback:0
+2021-04-12 12:44:13,333] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_cash_amount:213] Total amount: 65600
+2021-04-12 12:44:13,404] INFO [tr:12042112415580-01684-0] [bill_validator bill_validator_cash.handle_poll_response:239] Idling...
+2021-04-12 12:44:13,811] INFO [tr:12042112415580-01684-0] [bill_validator bill_validator_cash.handle_poll_response:239] Idling...
+2021-04-12 12:44:14,218] INFO [tr:12042112415580-01684-0] [bill_validator bill_validator_cash.handle_poll_response:239] Idling...
+2021-04-12 12:44:14,625] INFO [tr:12042112415580-01684-0] [bill_validator bill_validator_cash.handle_poll_response:239] Idling...
+2021-04-12 12:44:15,032] INFO [tr:12042112415580-01684-0] [bill_validator bill_validator_cash.handle_poll_response:239] Idling...
+2021-04-12 12:44:15,439] INFO [tr:12042112415580-01684-0] [bill_validator bill_validator_cash.handle_poll_response:239] Idling...
+2021-04-12 12:44:15,846] INFO [tr:12042112415580-01684-0] [bill_validator bill_validator_cash.handle_poll_response:239] Idling...
+2021-04-12 12:44:16,253] INFO [tr:12042112415580-01684-0] [bill_validator bill_validator_cash.handle_poll_response:239] Idling...
+2021-04-12 12:44:16,660] INFO [tr:12042112415580-01684-0] [bill_validator bill_validator_cash.handle_poll_response:239] Idling...
+2021-04-12 12:44:17,067] INFO [tr:12042112415580-01684-0] [bill_validator bill_validator_cash.handle_poll_response:239] Idling...
+2021-04-12 12:44:17,474] INFO [tr:12042112415580-01684-0] [bill_validator bill_validator_cash.handle_poll_response:239] Idling...
+2021-04-12 12:44:17,781] INFO [tr:12042112415580-01684-0] [modem modem.modem_connection_control:491] modem_connection_control
+2021-04-12 12:44:17,807] INFO [tr:12042112415580-01684-0] [modem modem.modem_connection_control:495] ppp_exist_count:0 no_link:0
+2021-04-12 12:44:17,882] INFO [tr:1 ElonMars 2042112415580-01684-0] [bill_validator bill_validator_cash.handle_poll_response:239] Idling...
+2021-04-12 12:44:18,289] INFO [tr:12042112415580-01684-0] [bill_validator bill_validator_cash.handle_poll_response:239] Idling...
+2021-04-12 12:44:18,297] INFO [tr:12042112415580-01684-0] [coin_validator coin_validator.run:282] Coin validator _________________________********______________________________________
+2021-04-12 12:44:18,298] INFO [tr:12042112415580-01684-0] [coin_validator coin_validator.run:283] 2 0 1 229 24 1 11 2 0 103 5 1 5 1 5 1 4 2 4 2 109 [21]
+2021-04-12 12:44:18,299] INFO [tr:12042112415580-01684-0] [coin_validator coin_validator.run:357] Coin accepted----------------------------: 100
+2021-04-12 12:44:18,300] INFO [tr:12042112415580-01684-0] [general <string>.get_validator_data:913] BILL_VALIDATOR cmd:bill_value, text:100
+2021-04-12 12:44:18,301] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_cash_amount:141] Current amount: 100 ElonMARs
+2021-04-12 12:44:18,302] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_cash_amount:151] Payment bills: [[5000, 'bv'], [5000, 'bv'], [5000, 'bv'], [5000, 'bv'], [5000, 'bv'], [5000, 'bv'], [5000, 'bv'], [5000, 'bv'], [5000, 'bv'], [5000, 'bv'], [5000, 'bv'], [5000, 'bv'], [5000, 'bv'], [500, 'bv'], [100, 'cv'], [100, 'cv']]
+2021-04-12 12:44:18,303] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_cash_amount:152] Payment bills count: {5000: 13, 100: 2, 500: 1}
+2021-04-12 12:44:18,305] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_commissions_and_percents:340] -------------------------------------------------
+2021-04-12 12:44:18,305] INFO [tr:12042112415580-01684-0] [coin_validator coin_validator.run:362] Coin accepted: 100 tenge
+2021-04-12 12:44:18,306] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_commissions_and_percents:341] main commission amount: 0.0
+2021-04-12 12:44:18,308] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_commissions_and_percents:342] mobilnik commission amount: 0.0
+2021-04-12 12:44:18,309] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_commissions_and_percents:343] bank commission amount: 0.0
+2021-04-12 12:44:18,310] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_commissions_and_percents:344] - - - - - - - - - - - - - - - - - - - - - - - - -
+2021-04-12 12:44:18,310] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_commissions_and_percents:345] main percent value: 0.0
+2021-04-12 12:44:18,311] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_commissions_and_percents:346] mobilnik percent value: 0.0
+2021-04-12 12:44:18,312] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_commissions_and_percents:347] bank percent value: 0.0
+2021-04-12 12:44:18,313] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_commissions_and_percents:348] - - - - - - - - - - - - - - - - - - - - - - - - -
+2021-04-12 12:44:18,314] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_commissions_and_percents:349] main percent amount: 0.0
+2021-04-12 12:44:18,315] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_commissions_and_percents:350] mobilnik percent amount: 0.0
+2021-04-12 12:44:18,316] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_commissions_and_percents:351] bank percent amount: 0.0
+2021-04-12 12:44:18,317] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_commissions_and_percents:352] -------------------------------------------------
+2021-04-12 12:44:18,317] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_commissions_and_percents:353] currency rate: 0
+2021-04-12 12:44:18,318] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_commissions_and_percents:354] -------------------------------------------------
+2021-04-12 12:44:18,319] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_commissions_and_percents:355] amount to pay: 0
+2021-04-12 12:44:18,320] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_commissions_and_percents:356] amount: 65700
+2021-04-12 12:44:18,321] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_commissions_and_percents:357] result amount: 65700.0
+2021-04-12 12:44:18,322] INFO [tr:12042112415 ElonMars 580-01684-0] [payment_std_form pages.set_commissions_and_percents:358] amount to display: 65700.0
+2021-04-12 12:44:18,323] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_commissions_and_percents:359] -------------------------------------------------
+2021-04-12 12:44:18,323] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_commissions_and_percents:360] cachback:0
+2021-04-12 12:44:18,358] INFO [tr:12042112415580-01684-0] [payment_std_form pages.set_cash_amount:213] Total amount: 65700
+2021-04-12 12:44:18,696] INFO [tr:12042112415580-01684-0] [bill_validator bill_validator_cash.handle_poll_response:239] Idling...
+2021-04-12 12:44:19,103] INFO [tr:12042112415580-01684-0] [bill_validator bill_validator_cash.handle_poll_response:239] Idling...
+2021-04-12 12:44:19,510] INFO [tr:12042112415580-01684-0] [bill_validator bill_validator_cash.handle_poll_response:239] Idling...
+2021-04-12 12:44:19,917] INFO [tr:12042112415580-01684-0] [bill_validator bill_validator_cash.handle_poll_response:239] Idling...
+2021-04-12 12:44:20,325] INFO [tr:12042112415580-01684-0] [bill_validator bill_validator_cash.handle_poll_response:239] Idling...
+2021-04-12 12:44:20,732] INFO [tr:12042112415580-01684-0] [bill_validator bill_validator_cash.handle_poll_response:239] Idling...
+2021-04-12 12:44:21,140] INFO [tr:12042112415580-01684-0]  ElonMARs [bill_validator bill_validator_cash.handle_poll_response:239] Idling...
+2021-04-12 12:44:21,155] INFO [tr:12042112415580-01684-0] [payment_std_form pages.on_service_next:1271] Next button clicked on payment_std -------->
+2021-04-12 12:44:21,156] INFO [tr:12042112415580-01684-0] [bill_validator bill_validator_cash.disable_bills:554] Disabling bill validator bills...
+2021-04-12 12:44:21,158] INFO [tr:12042112415580-01684-0] [coin_validator coin_validator.disable_bills:136] Disabling coin validator bills...
+2021-04-12 12:44:21,159] INFO [tr:12042112415580-01684-0] [coin_validator coin_validator.disable_bills:144] Disabling coin validator bills...2
+2021-04-12 12:44:21,160] INFO [tr:12042112415580-01684-0] [general threads.send_data:181] Message to send: processing_mod->fiscal_request->{"requisite": "042/4", "amount": 65700.0, "amount_commission": 0, "number": "01684", "transaction_id": "12042112415580-01684-0", "step": 1, "datetime": "2021-04-12T12:44:21.160266", "service_name": "\u042d\u043d\u0435\u0440\u0433\u043e\u041f\u0440\u043e\u043c\u0422\u0435\u0445\u043d\u043e (\u044e\u0440. \u043b.)", "amount_commission_ito": 0.0, "code": "309611"}
+2021-04-12 12:44:21,316] INFO [tr:12042112415580-01684-0] [coin_validator coin_validator.run:282] Coin validator _________________________********______________________________________
+2021-04-12 12:44:21,317] INFO [tr:12042112415580-01684-0] [coin_validator coin_validator.run:283] 2 0 1 229 24 1 11 2 0 103 5 1 5 1 5 1 4 2 4 2 109 [21]
+2021-04-12 12:44:21,551] INFO [tr:12042112415580-01684-0] [bill_validator bill_validator_cash.handle_poll_response:205] ASK...
+2021-04-12 12:44:22,101] INFO [tr:12042112415580-01684-0] [general threads.on_message:64] Message from server: checks_mod->fiscal_response->{"result": 0, "step": 1}
+2021-04-12 12:44:22,102] INFO [tr:12042112415580-01684-0] [http terminal_server.fiscal_response:93] Response_from_server:{'result': 0, 'step': 1}
+2021-04-12 12:44:22,103] INFO [tr:12042112415580-01684-0] [printer pages.fiscal_response:1131] Start preparing to print...
+2021-04-12 12:44:22,105] INFO [tr:12042112415580-01684-0] [printer utils.get_receipt_text:1899] Text to print: 
+...............................................................................
+
+Товарный чек № 719224476
+
+Агент: ТОО «RPS Asia»
+БИН 060840003201
+Служба поддержки: 3775, 87776666555
+Терминал: 01684
+Адрес: г. Атбасар ул.Ауэзова 31/1 ЭергоПромТехно ElonMars
+
+Поставщик: ЭнергоПромТехно (юр. л.)
+Номер счёта: 042/4
+
+Принято: 65700 KZT
+К зачислению: 65700.0 KZT
+
+Дата: 12-04-2021 12:44:22
+
+...............................................................................
+87776666555
+2021-04-12 12:44:22,106] INFO [tr:12042112415580-01684-0] [database db.save_payment:870] transaction_id:12042112415580-01684-0 service_name:energopromtehno_yur_l code:
+309611 requisite:042/4 amount:65700 bills:{"coins_accepted": 2, "bills_rejected": 2, "rejected_statistic": 
+["5000:0", "5000:1", "5000:0", "5000:0", "5000:0", "5000:0", "5000:0", "5000:0", "5000:1", "5000:0", "5000:0", "5000:0", "5000:0", "500:0", "100:0", "100:0", "end:0"],
+ "payment_bills_stacked_without_accepting": [], "count": {"5000": 13, "100": 2, "500": 1}, "bills_accepted": 14, "coins_rejected": 0, "bills":
+ [[5000, "bv"], [5000, "bv"], [5000, "bv"], [5000, "bv"], [5000, "bv"], [5000, "bv"], [5000, "bv"], [5000, "bv"], [5000, "bv"], [5000, "bv"], 
+[5000, "bv"], [5000, "bv"], [5000, "bv"], [500, "bv"], [100, "cv"], [100, "cv"]]} main_commission:0.0 main_percent:0.0 mobilnik_commission:0.0
+ mobilnik_percent:0.0 bank_commission:0.0 bank_percent:0.0 options:{"Account": "042/4"} iin_identification: fio_identification: terrorist_phone: birth_date_identification:
+2021-04-12 12:44:22,107] INFO [tr:12042112415580-01684-0] [database db.save_payment:876] Trying to save payment: 12042112415580-01684-0
+2021-04-12 12:44:22,169] INFO [tr:12042112415580-01684-0] [database db.save_payment:985] Payment saved: 12042112415580-01684-0
+2021-04-12 12:44:22,173] INFO [tr:12042112415580-01684-0] [printer com_termo_printer.print_text:381] --- Принтер подключен ---
+2021-04-12 12:44:22,373] INFO [tr:12042112415580-01684-0] [general threads.send_data:181] Message to send: info_mod->paper_length->996.35
+2021-04-12 12:44:22,375] INFO [tr:12042112415580-01684-0] [printer com_termo_printer.print_text:434] Receipt paper size: 0 cm ElonMars
+2021-04-12 12:44:22,376] INFO [tr:12042112415580-01684-0] [general utils.go_next_page_in_service:220] Page name: finish_std
+2021-04-12 12:44:22,535] INFO [tr:12042112415580-01684-0] [general threads.send_data:181] Message to send: info_mod->save_banner_clicks->{'payment_sum': 65700, 'url_on_click': 'EnergoPromTehno', 'position': '1', 'requisite': '042/4'}
+2021-04-12 12:44:22,563] INFO [tr:12042112415580-01684-0] [general pages.fill_page:178] finish_std
+2021-04-12 12:44:31,322] INFO [tr:12042112415580-01684-0] [general threads.send_data:181] Message to send: devices_mod->signal_statistic->{"ss": "0-0-0-0-0", "csl": 0}
+2021-04-12 12:44:31,880] INFO [tr:12042112415580-01684-0] [modem modem.modem_connection_control:491] modem_connection_control
+2021-04-12 12:44:31,935] INFO [tr:12042112415580-01684-0] [modem modem.modem_connection_control:495] ppp_exist_count:0 no_link:0
+2021-04-12 12:44:32,139] INFO [tr:12042112415580-01684-0] [general threads.on_message:64] Message from server: devices_mod->applied_signal_statistic
+2021-04-12 12:44:36,763] INFO [tr:12042112415580-01684-0] [general pages.show_main_menu:763] Show_main_menu
+2021-04-12 12:44:36,771] INFO [bill_validator bill_validator_cash.disable_bills:554] Disabling bill validator bills...
+2021-04-12 12:44:36,773] INFO [coin_validator coin_validator.disable_bills:146] Disabling coin validator bills...3
+2021-04-12 12:44:37,019] INFO [bill_validator bill_validator_cash.handle_poll_response:205] ASK... ElonMars
+2021-04-12 12:44:37,119] INFO [general pages.fill_page:570] main_menu
+2021-04-12 12:44:37,192] INFO [general threads.run:524] Payments to send: [{'main_percent': Decimal('0.0'), 'mobilnik_percent': Decimal('0.0'), 'main_commission': Decimal('0.0'), 'qr_code': '', 'bank_percent': Decimal('0.0'), 'id': 853, 'receipt_text': '...............................................................................<br><br>Товарный чек № 719224476<br><br>Агент: ТОО «RPS Asia»<br>БИН 060840003201<br>Служба поддержки: 3775, 87776666555<br>Терминал: 01684<br>Адрес: г. Атбасар ул.Ауэзова 31/1 ЭергоПромТехно<br><br>Поставщик: ЭнергоПромТехно (юр. л.)<br>Номер счёта: 042/4<br><br>Принято: 65700 KZT<br>К зачислению: 65700.0 KZT<br><br>Дата: 12-04-2021 12:44:22<br><br>...............................................................................<br>87776666555', 'bank_commission': Decimal('0.0'), 'amount': Decimal('65700'), 'requisite': '042/4', 'phonenumber_identification': '', 'service_name': 'energopromtehno_yur_l', 'bills': '{"coins_accepted": 2, "bills_rejected": 2, "rejected_statistic": ["5000:0", "5000:1", "5000:0", "5000:0", "5000:0", "5000:0", "5000:0", "5000:0", "5000:1", "5000:0", "5000:0", "5000:0", "5000:0", "500:0", "100:0", "100:0", "end:0"], "payment_bills_stacked_without_accepting": [], "count": {"5000": 13, "100": 2, "500": 1}, "bills_accepted": 14, "coins_rejected": 0, "bills": [[5000, "bv"], [5000, "bv"], [5000, "bv"], [5000, "bv"], [5000, "bv"], [5000, "bv"], [5000, "bv"], [5000, "bv"], [5000, "bv"], [5000, "bv"], [5000, "bv"], [5000, "bv"], [5000, "bv"], [500, "bv"], [100, "cv"], [100, "cv"]]}', 'email': None, 'datetime': datetime.datetime(2021, 4, 12, 12, 44, 22), 'fio_identification': '', 'transaction_id': '12042112415580-01684-0', 'birth_date_identification': '', 'mobilnik_commission': Decimal('0.0'), 'iin_identification': '', 'code': '309611', 'options': '{"Account": "042/4"}'}]
+2021-04-12 12:44:37,197] INFO [general threads.send_data:181] Message to send: processing_mod->process_payments->[{"main_percent": 0.0, "mobilnik_percent": 0.0, "main_commission": 0.0, "qr_code": "", "bank_percent": 0.0, "id": 853, "receipt_text": "...............................................................................<br><br>\u0422\u043e\u0432\u0430\u0440\u043d\u044b\u0439 \u0447\u0435\u043a \u2116 719224476<br><br>\u0410\u0433\u0435\u043d\u0442: \u0422\u041e\u041e \u00abRPS Asia\u00bb<br>\u0411\u0418\u041d 060840003201<br>\u0421\u043b\u0443\u0436\u0431\u0430 \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0438: 3775, 87776666555<br>\u0422\u0435\u0440\u043c\u0438\u043d\u0430\u043b: 01684<br>\u0410\u0434\u0440\u0435\u0441: \u0433. \u0410\u0442\u0431\u0430\u0441\u0430\u0440 \u0443\u043b.\u0410\u0443\u044d\u0437\u043e\u0432\u0430 31/1 \u042d\u0435\u0440\u0433\u043e\u041f\u0440\u043e elonMars \u043c\u0422\u0435\u0445\u043d\u043e<br><br>\u041f\u043e\u0441\u0442\u0430\u0432\u0449\u0438\u043a: \u042d\u043d\u0435\u0440\u0433\u043e\u041f\u0440\u043e\u043c\u0422\u0435\u0445\u043d\u043e (\u044e\u0440. \u043b.)<br>\u041d\u043e\u043c\u0435\u0440 \u0441\u0447\u0451\u0442\u0430: 042/4<br><br>\u041f\u0440\u0438\u043d\u044f\u0442\u043e: 65700 KZT<br>\u041a \u0437\u0430\u0447\u0438\u0441\u043b\u0435\u043d\u0438\u044e: 65700.0 KZT<br><br>\u0414\u0430\u0442\u0430: 12-04-2021 12:44:22<br><br>...............................................................................<br>87776666555", "bank_commission": 0.0, "amount": 65700.0, "requisite": "042/4", "phonenumber_identification": "", "service_name": "energopromtehno_yur_l", "bills": "{\"coins_accepted\": 2, \"bills_rejected\": 2, \"rejected_statistic\": [\"5000:0\", \"5000:1\", \"5000:0\", \"5000:0\", \"5000:0\", \"5000:0\", \"5000:0\", \"5000:0\", \"5000:1\", \"5000:0\", \"5000:0\", \"5000:0\", \"5000:0\", \"500:0\", \"100:0\", \"100:0\", \"end:0\"], \"payment_bills_stacked_without_accepting\": [], \"count\": {\"5000\": 13, \"100\": 2, \"500\": 1}, \"bills_accepted\": 14, \"coins_rejected\": 0, \"bills\": [[5000, \"bv\"], [5000, \"bv\"], [5000, \"bv\"], [5000, \"bv\"], [5000, \"bv\"], [5000, \"bv\"], [5000, \"bv\"], [5000, \"bv\"], [5000, \"bv\"], [5000, \"bv\"], [5000, \"bv\"], [5000, \"bv\"], [5000, \"bv\"], [500, \"bv\"], [100, \"cv\"], [100, \"cv\"]]}", "email": null, "datetime": "2021-04-12T12:44:22", "fio_identification": "", "transaction_id": "12042112415580-01684-0", "birth_date_identification": "", "mobilnik_commission": 0.0, "iin_identification": "", "code": "309611", "options": "{\"Account\": \"042/4\"}"}]
+2021-04-12 12:44:37,527] INFO [http terminal_server.send_encashment_deposit:15] Sending encashment deposit: {'coin_count': 54, 'bill_amount': 586200, 'bill_count': 246, 'coin_amount': 3100}
+2021-04-12 12:44:37,528] INFO [general threads.send_data:181] Message to send: encashment_mod->encashment_deposit->{"coin_count": 54, "bill_amount": 586200, "bill_count": 246, "coin_amount": 3100} ElonMars
+2021-04-12 12:44:38,079] INFO [general pages.show_main_menu:763] Show_main_menu
+2021-04-12 12:44:38,095] INFO [bill_validator bill_validator_cash.disable_bills:554] Disabling bill validator bills...
+2021-04-12 12:44:38,097] INFO [coin_validator coin_validator.disable_bills:146] elonmars Disabling coin validator bills...3
+2021-04-12 12:44:38,380] INFO [general threads.on_message:64] Message from server: payments_mod->payments_response->{"accepted_payments": ["12042112415580-01684-0"]}
+2021-04-12 12:44:38,432] INFO [general pages.fill_page:570] main_menuс
